@@ -1,0 +1,12 @@
+.animalDesaparecido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.animalDesaparecido img {
+    max-width: 200px;
+    max-height: 240px;
+}

@@ -1,0 +1,33 @@
+.cabecalho {
+    padding: 15px;
+    background-color: #1E90FF;
+    grid-area: cabecalho;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#loginGravatar span {
+    cursor: pointer;
+}
+
+#loginGravatar img {
+    cursor: pointer;
+    border-radius: 50%;
+}

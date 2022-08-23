@@ -1,0 +1,15 @@
+footer {
+    display: flex;
+    justify-content: center;
+    grid-area: rodape;
+
+    background-color: #A9A9A9;
+}
+
+footer span {
+    color: white;
+}
+
+footer span .icone {
+    color: red;
+}

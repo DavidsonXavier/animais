@@ -1,0 +1,12 @@
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: principal;
+
+}
+
+@media (max-width: 790px) {
+    .principal {
+        justify-content: center;
+    }
+}
