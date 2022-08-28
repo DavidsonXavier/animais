@@ -34,6 +34,11 @@ const Header = () => {
                             About
                         </Link>
                     </li>
+                    <li>
+                        <Link to="/cadastroanimal">
+                            cadastrar Animal
+                        </Link>
+                    </li>
                 </ul>
             </nav>
             <div id="loginGravatar">

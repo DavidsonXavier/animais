@@ -4,6 +4,7 @@ import { initializeApp } from "firebase/app";
 
 import env from "react-dotenv";
 import { getFirestore } from 'firebase/firestore/lite';
+import { getStorage } from "firebase/storage";
 
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -22,6 +23,7 @@ const firebaseConfig = {
 // // Initialize Firebase
 const appFirebase = initializeApp(firebaseConfig);
 
+export const storage = getStorage(appFirebase);
 export const db = getFirestore(appFirebase);
 
 
